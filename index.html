@@ -2,47 +2,13 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Malla Interactiva Enfermería UdeC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Enfermería</title>
   <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
   <h1>Malla Enfermería</h1>
-
-  <div class="controles">
-    <select id="filtroAño">
-      <option value="">Filtrar por Año</option>
-      <option value="1">Año 1</option>
-      <option value="2">Año 2</option>
-      <option value="3">Año 3</option>
-      <option value="4">Año 4</option>
-      <option value="5">Año 5</option>
-    </select>
-
-    <select id="filtroSemestre">
-      <option value="">Filtrar por Semestre</option>
-      <option value="1">Semestre 1</option>
-      <option value="2">Semestre 2</option>
-      <option value="3">Semestre 3</option>
-      <option value="4">Semestre 4</option>
-      <option value="5">Semestre 5</option>
-      <option value="6">Semestre 6</option>
-      <option value="7">Semestre 7</option>
-      <option value="8">Semestre 8</option>
-      <option value="9">Semestre 9</option>
-      <option value="10">Semestre 10</option>
-    </select>
-
-    <button id="resetear">Reiniciar Progreso</button>
-    <button id="exportar">Exportar a PDF</button>
-  </div>
-
-  <div id="progreso">
-    <div id="barraProgreso">0%</div>
-  </div>
-
-  <div id="malla" class="malla-container"></div>
-
+  <div id="malla-container"></div>
   <script src="script.js"></script>
 </body>
 </html>
